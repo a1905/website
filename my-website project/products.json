@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "name": "Baggy Pantolon",
+    "images": [
+      "images/ürünID=1.png",
+      "images/ürünID=1.1.png",
+      "images/ürünID=1.2.png"
+    ],
+    "price": 129.99,
+    "description": "Kahverengi Erkek Baggy Pantolon",
+    "sizes": {
+      "XS": 10,
+      "S": 20,
+      "M": 30,
+      "L": 25,
+      "XL": 10,
+      "XXL": 5
+    }
+  },
+  {
+    "id": 2,
+    "name": "Teknik Deri Ceket",
+    "images": [
+      "images/ürünID=2.png",
+      "images/ürünID=2.1.png",
+      "images/ürünID=2.2.png"
+    ],
+    "price": 299.99,
+    "description": "Erkek kahverengi teknik deri ceket",
+    "sizes": {
+      "S": 10,
+      "M": 15,
+      "L": 20,
+      "XL": 5,
+      "XXL": 0
+    }
+  },
+  {
+    "id": 3,
+    "name": "Denim Ceket",
+    "images": [
+      "images/ürünID=3.png",
+      "images/ürünID=3.1.png",
+      "images/ürünID=3.2.png"
+    ],
+    "price": 99.99,
+    "description": "Erkek siyah denim ceket",
+    "sizes": {
+      "XS": 15,
+      "S": 20,
+      "M": 25,
+      "L": 20,
+      "XL": 15,
+      "XXL": 5
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kaşe Gömlek",
+    "images": [
+      "images/ürünID=4.png",
+      "images/ürünID=4.1.png",
+      "images/ürünID=4.2.png"
+    ],
+    "price": 119.99,
+    "description": "Erkek bej kaşe gömlek",
+    "sizes": {
+      "S": 10,
+      "M": 15,
+      "L": 20,
+      "XL": 20,
+      "XXL": 10
+    }
+  },
+  {
+    "id": 5,
+    "name": "Beyaz Sweatshirt",
+    "images": [
+      "images/ürünID=5.png",
+      "images/ürünID=5.1.png",
+      "images/ürünID=5.2.png"
+    ],
+    "price": 59.99,
+    "description": "Erkek lazer kesim beyaz sweatshirt",
+    "sizes": {
+      "XS": 10,
+      "S": 20,
+      "M": 30,
+      "L": 25,
+      "XL": 15
+    }
+  },
+  {
+    "id": 6,
+    "name": "Beyaz Tshirt",
+    "images": [
+      "images/ürünID=6.png",
+      "images/ürünID=6.1.png",
+      "images/ürünID=6.2.png"
+    ],
+    "price": 29.99,
+    "description": "Erkek beyaz oversize beyaz tshirt",
+    "sizes": {
+      "S": 15,
+      "M": 25,
+      "L": 30,
+      "XL": 20,
+      "XXL": 10
+    }
+  },
+  {
+    "id": 7,
+    "name": "Beyaz Kapüşonlu Sweatshirt",
+    "images": [
+      "images/ürünID=7.png",
+      "images/ürünID=7.1.png",
+      "images/ürünID=7.2.png"
+    ],
+    "price": 69.99,
+    "description": "Erkek beyaz kapüşonlu sweatshirt",
+    "sizes": {
+      "XS": 10,
+      "S": 20,
+      "M": 30,
+      "L": 25,
+      "XL": 15
+    }
+  },
+  {
+    "id": 8,
+    "name": "Siyah Sweatshirt",
+    "images": [
+      "images/ürünID=8.png",
+      "images/ürünID=8.1.png",
+      "images/ürünID=8.2.png"
+    ],
+    "price": 49.99,
+    "description": "Erkek siyah oversize kapüşonlu sweatshirt ",
+    "sizes": {
+      "S": 15,
+      "M": 25,
+      "L": 30,
+      "XL": 20,
+      "XXL": 10
+    }
+  },
+  {
+    "id": 9,
+    "name": "Mont",
+    "images": [
+      "images/ürünID=9.png",
+      "images/ürünID=9.1.png",
+      "images/ürünID=9.2.png"
+    ],
+    "price": 239.99,
+    "description": "Erkek Mont",
+    "sizes": {
+      "XS": 15,
+      "S": 20,
+      "M": 25,
+      "L": 20,
+      "XL": 15
+    }
+  }
+]

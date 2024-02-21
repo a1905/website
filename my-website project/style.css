@@ -1,0 +1,295 @@
+* {
+  text-decoration: none !important;
+  list-style-type: none !important;
+  max-width: 100% !important;
+}
+/* navbar start */
+.navbar-top {
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-center-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.link {
+  color: rgba(0, 0, 0, 0.636);
+}
+
+.link:hover {
+  color: black;
+}
+
+.item {
+  padding: 5px;
+}
+
+.brand {
+  letter-spacing: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  cursor: pointer;
+  color: black;
+}
+.search-area {
+  background-color: rgb(231, 229, 229);
+  padding: 5px;
+  border-radius: 3px;
+  color: black;
+}
+input {
+  background-color: rgb(231, 229, 229);
+  border-radius: 3px;
+  padding: 2px;
+  outline: none;
+  border: none;
+}
+.search-btn {
+  cursor: pointer;
+}
+.user-area a {
+  color: black;
+}
+
+.bi-person,
+.bi-basket,
+.bi-heart,
+.bi-share,
+.bi-list,
+.bi-cart2 {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.bi-list {
+  display: none;
+}
+
+.navbar-bottom {
+  border-top: 1px solid gainsboro;
+}
+
+/* navbar start */
+/* section 2 start */
+.section-2 {
+  margin: 8px;
+  margin-bottom: 10px;
+}
+.section-2 h1 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+.col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price,
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.old-price {
+  text-decoration: line-through !important;
+  opacity: 0.6;
+  margin-left: 5px;
+}
+img:hover {
+  cursor: pointer;
+}
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.resim2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* geçiş efekti ekleme */
+}
+
+.card-img-container:hover .resim2 {
+  opacity: 1;
+}
+.card-img-container .bi-heart:hover {
+  color: red;
+}
+.card-img-container .bi-share:hover {
+  color: rgb(76, 203, 225);
+}
+/* section 2 start */
+/* basket start */
+.basket {
+  display: flex;
+  justify-content: center; /* Yatay hizalama */
+  align-items: center; /* Dikey hizalama */
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+.basket-wrapper {
+  position: absolute;
+  right: -300px;
+  top: 0;
+  z-index: 999;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  overflow-y: auto; /* Yalnızca dikey kaydırma çubuğunu göster */
+}
+
+.basket-top {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.199);
+}
+.close-btn {
+  color: red;
+  position: absolute;
+  right: 8px;
+  top: 3px;
+  cursor: pointer;
+}
+.buying {
+  border-top: 1px solid gainsboro;
+  background-color: rgba(128, 128, 128, 0.199);
+}
+button {
+  width: 100%;
+}
+
+button:focus {
+  background-color: rgba(128, 128, 128, 0.278);
+  border: none !important;
+  outline: none !important;
+}
+.basket-delete-btn {
+  cursor: pointer;
+}
+.basket-delete-btn:hover {
+  color: red;
+}
+/* basket end */
+/* js-card */
+.bi-cart2:hover {
+  color: greenyellow;
+}
+/* js-card */
+/* footer start */
+footer {
+  margin-top: 20px;
+}
+footer .brand {
+  color: white;
+}
+/* footer end */
+/* 
+products start */
+
+.products {
+  position: relative;
+}
+
+.product-area {
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+}
+.product-area img {
+  width: 150px;
+  height: 205px;
+}
+.product-info {
+  padding: 10px;
+
+  text-align: center;
+}
+.sum {
+  height: 100%;
+  position: absolute;
+  padding: 10px;
+  background-color: white;
+}
+.product-quantity {
+  text-align: center;
+}
+/* 
+products end */
+.row > * {
+  padding-right: 0 !important;
+}
+
+/* form */
+
+.user-form {
+  margin: 50px;
+}
+
+/* mobile */
+@media only screen and (max-width: 900px) {
+  .navbar-center-wrapper {
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+
+  header {
+    padding: auto;
+  }
+  .brand {
+    letter-spacing: 10px;
+    font-size: 15px;
+  }
+  input {
+    width: 70px;
+  }
+
+  .user-area {
+    display: flex;
+  }
+  .user-area i {
+    font-size: 18px;
+  }
+  .bi-list {
+    display: block;
+  }
+  .navbar-list {
+    display: none;
+
+    align-items: start;
+    flex-direction: column;
+  }
+}
